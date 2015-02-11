@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryDesigner", "QueryDesig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BU_Logica", "BU_Logica\BU_Logica.csproj", "{E6975423-3788-4CF5-902E-6B19ACC96E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_DataBase", "DB_DataBase\DB_DataBase.csproj", "{214437F1-4A5F-4CB5-A625-F07EFF47C24C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,16 +35,6 @@ Global
 		{E6975423-3788-4CF5-902E-6B19ACC96E4F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E6975423-3788-4CF5-902E-6B19ACC96E4F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E6975423-3788-4CF5-902E-6B19ACC96E4F}.Release|x86.ActiveCfg = Release|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{214437F1-4A5F-4CB5-A625-F07EFF47C24C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
