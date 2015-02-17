@@ -25,9 +25,7 @@ namespace BU_Logica
 
         public override string ToString()
         {
-            return "SELECT" + Campos
-                 + "FROM" + Tablas 
-                 + "WHERE" + Comparacion;
+            return base.ToString();
         }
 
 

@@ -33,7 +33,7 @@ namespace QueryDesigner
             }
         }
 
-        private void CargarDatos(string URLImagen, string Titulo, string Descripcion)
+        public void CargarDatos(string URLImagen, string Titulo, string Descripcion)
         {
 
             us = new Opciones();
@@ -56,6 +56,30 @@ namespace QueryDesigner
             foreach (RowStyle rs in tableLayoutPnl.RowStyles)
             {
                 rs.Height = 100F / tableLayoutPnl.RowCount;
+            }
+        }
+
+        private void tableLayoutPnl_MouseClick(object sender, MouseEventArgs e)
+        {
+            int row = 0;
+            int verticalOffset = 0;
+            foreach (int h in tableLayoutPnl.GetRowHeights())
+            {
+                int column = 0;
+                int horizontalOffset = 0;
+                foreach (int w in tableLayoutPnl.GetColumnWidths())
+                {
+                    Rectangle rectangle = new Rectangle(horizontalOffset, verticalOffset, w, h);
+                    if (rectangle.Contains(e.Location))
+                    {
+                        MessageBox.Show(String.Format("row {0}, column {1} was clicked", row, column));
+                        return;
+                    }
+                    horizontalOffset += w;
+                    column++;
+                }
+                verticalOffset += h;
+                row++;
             }
         }
 
