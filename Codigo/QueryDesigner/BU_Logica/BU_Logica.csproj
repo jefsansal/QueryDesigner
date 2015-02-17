@@ -45,6 +45,7 @@
     <Compile Include="Arreglos\ArrayToString.cs" />
     <Compile Include="Arreglos\ArregloLista.cs" />
     <Compile Include="Arreglos\CargaMenu.cs" />
+    <Compile Include="CargaDatosXml\CargarMenuOpciones.cs" />
     <Compile Include="ControlQuery.cs" />
     <Compile Include="Eliminacion\EliminarReportes.cs" />
     <Compile Include="Objetos\GenerarSql.cs" />

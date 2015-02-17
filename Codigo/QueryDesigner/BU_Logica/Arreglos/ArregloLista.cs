@@ -11,6 +11,6 @@ namespace BU_Logica
     {
         
         [OperationContract]
-        public List<string> GenerarListado(); 
+        List<string> GenerarListado(); 
     }
 }

@@ -7,24 +7,33 @@ using System.Text;
 
 namespace BU_Logica.Objetos
 {
-    [DataContract]
-    public class Menu
+    
+    public class ObjMenu
     {
-        [DataMember]
-        public Menu(string Titulo, string Descripcion, string Imagen) {
-            this.Titulo = Titulo;
-            this.Descripcion = Descripcion;
-            this.Imagen = Imagen;
+        private string imagen;
+        private string titulo;
+        private string descripcion;
+
+        public ObjMenu(string Titulo, string Descripcion, string Imagen) {
+            this.titulo = Titulo;
+            this.descripcion = Descripcion;
+            this.imagen = Imagen;
         }
 
-        [DataMember]
-        private string Titulo { get; set; }
-
-        [DataMember]
-        private string Descripcion { get; set; }
-
-        [DataMember]
-        private string Imagen { get; set; }
-
+        public string Imagen
+        {
+            get { return imagen; }
+            set { imagen = value; }
+        }
+        public string Titulo
+        {
+            get { return titulo; }
+            set { titulo = value; }
+        }
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }
     }
 }

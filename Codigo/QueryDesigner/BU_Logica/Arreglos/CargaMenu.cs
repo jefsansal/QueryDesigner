@@ -8,13 +8,13 @@ namespace BU_Logica.Arreglos
 {
     public class CargaMenu
     {
-        List<Menu> Listmenu = new List<Menu>();
-        public List<Menu> Listado {
+    //    List<Menu> Listmenu = new List<Menu>();
+    //    public List<Menu> Listado {
            
-    //Carga Xml
+    ////Carga Xml
            
-            return 
-
-        }
+            
+    //        return null;
+    //    }
     }
 }
