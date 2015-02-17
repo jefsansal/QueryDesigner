@@ -26,5 +26,10 @@ namespace QueryDesigner
 
         }
 
+        private void Icon_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

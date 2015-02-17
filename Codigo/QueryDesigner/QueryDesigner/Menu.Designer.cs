@@ -40,9 +40,8 @@
             this.tableLayoutPnl.Name = "tableLayoutPnl";
             this.tableLayoutPnl.RowCount = 1;
             this.tableLayoutPnl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPnl.Size = new System.Drawing.Size(205, 451);
+            this.tableLayoutPnl.Size = new System.Drawing.Size(171, 451);
             this.tableLayoutPnl.TabIndex = 0;
-            this.tableLayoutPnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tableLayoutPnl_MouseClick);
             // 
             // columnaImagenes1
             // 
